@@ -1,0 +1,22 @@
+[
+  {
+    "id_composant": 1,
+    "id_methodologie": 1
+  },
+  {
+    "id_composant": 2,
+    "id_methodologie": 1
+  },
+  {
+    "id_composant": 3,
+    "id_methodologie": 1
+  },
+  {
+    "id_composant": 4,
+    "id_methodologie": 2
+  },
+  {
+    "id_composant": 5,
+    "id_methodologie": 2
+  }
+]

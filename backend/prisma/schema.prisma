@@ -1,0 +1,78 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+// prisma/schema.prisma
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model methodologie {
+  id          Int      @id @default(autoincrement())
+  nom         String    @unique
+  description String
+  usages      String
+  composants    composant_methodologie[]
+  outil     outil_methodologie[]
+
+
+}
+
+model outil {
+  id            Int           @id @default(autoincrement())
+  nom           String        @unique
+  categorie     String
+  lien          String
+  methodologie     outil_methodologie[]
+}
+
+model composant {
+  id            Int         @id @default(autoincrement())
+  nom           String      @unique
+  code          String
+  exemple       String
+  methodologies composant_methodologie[]
+
+}
+
+model Membre {
+  id       Int     @id @default(autoincrement())
+  email    String  @unique
+  password String
+  nom      String?
+  prenom   String?
+  createdAt DateTime @default(now())
+}
+
+model composant_methodologie {
+  id_composant_methodologie Int @id @default(autoincrement())
+
+  id_composant    Int
+  id_methodologie Int
+
+  composant   composant   @relation(fields: [id_composant], references: [id]) 
+  methodologie methodologie @relation(fields: [id_methodologie], references: [id]) 
+
+  @@unique([id_composant, id_methodologie])
+}
+
+model outil_methodologie {
+  id_outil_methodologie Int @id @default(autoincrement())
+
+  id_outil         Int
+  id_methodologie  Int
+
+  methodologie methodologie @relation(fields: [id_methodologie], references: [id]) 
+  outil        outil        @relation(fields: [id_outil], references: [id]) 
+
+  @@unique([id_outil, id_methodologie])
+}
+
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste des Composants</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>
+      Bienvenue,
+      <span id="user-name"></span>
+      !
+    </h1>
+    <!-- Cette span affichera le prénom de l'utilisateur -->
+    <a href="login.html">Se connecter</a>
+
+    <div id="formulaire-ajout-composant">
+      <h2>Ajouter un nouveau composant</h2>
+      <form id="ajout-composant-form">
+        <label for="nom-composant">Nom :</label>
+        <input type="text" id="nom-composant" name="nom" required />
+
+        <label for="code-composant">Code :</label>
+        <textarea id="code-composant" name="code" required></textarea>
+
+        <label for="exemple-composant">Exemple :</label>
+        <textarea id="exemple-composant" name="exemple"></textarea>
+
+        <button type="submit">Ajouter le composant</button>
+      </form>
+    </div>
+
+    <div id="formulaire-ajout-outil">
+      <h2>Ajouter un nouvel outil</h2>
+      <form id="ajout-outil-form">
+        <label for="nom-outil">Nom :</label>
+        <input type="text" id="nom-outil" name="nom" required />
+
+        <label for="categorie-outil">Catégorie :</label>
+        <input type="text" id="categorie-outil" name="categorie" required />
+
+        <label for="lien-outil">Lien :</label>
+        <input type="url" id="lien-outil" name="lien" required />
+
+        <button type="submit">Ajouter l'outil</button>
+      </form>
+    </div>
+
+    <!-- Menu déroulant des méthodologies -->
+    <div id="methodo-list">
+      <label for="methodo-select">Choisissez une méthodologie :</label>
+      <select id="methodo-select">
+        <!-- Les options seront ajoutées dynamiquement -->
+      </select>
+      <div id="composants-list"></div>
+      <div id="outils-list"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

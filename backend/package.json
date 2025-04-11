@@ -1,0 +1,26 @@
+{
+  "name": "ecf-uilib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "seed": "node ./prisma/seed.js",
+    "dev": "node src/index.js",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "prisma": "^6.6.0",
+    "supertest": "^7.1.0",
+    "vitest": "^3.1.1"
+  }
+}

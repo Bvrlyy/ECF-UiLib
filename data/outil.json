@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nom": "Figma",
+    "categorie": "Design & Prototypage",
+    "lien": "https://www.figma.com/"
+  },
+  {
+    "id": 2,
+    "nom": "Sublime Text",
+    "categorie": "Éditeur de Code",
+    "lien": "https://www.sublimetext.com/"
+  },
+  {
+    "id": 3,
+    "nom": "Notion",
+    "categorie": "Documentation & Recherche",
+    "lien": "https://www.notion.so/"
+  },
+  {
+    "id": 4,
+    "nom": "Adobe XD",
+    "categorie": "Prototypage",
+    "lien": "https://www.adobe.com/products/xd.html"
+  },
+  {
+    "id": 5,
+    "nom": "Marvel App",
+    "categorie": "Prototypage & Test",
+    "lien": "https://marvelapp.com/"
+  },
+  {
+    "id": 6,
+    "nom": "Typeform",
+    "categorie": "Feedback & Recherche",
+    "lien": "https://www.typeform.com/"
+  },
+  {
+    "id": 7,
+    "nom": "Google Forms",
+    "categorie": "Feedback & Enquête",
+    "lien": "https://forms.google.com/"
+  },
+  {
+    "id": 8,
+    "nom": "Trello",
+    "categorie": "Gestion de projet",
+    "lien": "https://trello.com/"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "nom": "Design Thinking",
+    "description": "Une approche centrée sur l'utilisateur pour résoudre des problèmes complexes de manière créative.",
+    "usages": [
+      "Création de produits",
+      "Amélioration de l'expérience utilisateur",
+      "Prototypage rapide"
+    ]
+  },
+  {
+    "id": 2,
+    "nom": "Mobile First",
+    "description": "Une approche de conception qui commence par l'optimisation pour les appareils mobiles avant de s'adapter aux écrans plus grands.",
+    "usages": ["Création de sites responsives", "Optimisation pour les mobiles"]
+  }
+]

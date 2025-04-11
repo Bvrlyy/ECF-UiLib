@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "nom": "Bouton",
+    "code": "<button class='btn'>Click me</button>",
+    "exemple": "<button class='btn'>Click me</button> "
+  },
+  {
+    "id": 2,
+    "nom": "Formulaire de contact",
+    "code": "<form><input type='text' name='name' placeholder='Votre nom'><input type='email' name='email' placeholder='Votre email'><textarea name='message' placeholder='Votre message'></textarea><button type='submit'>Envoyer</button></form>",
+    "exemple": "<form><input type='text' name='name' placeholder='Votre nom'></form> "
+  },
+  {
+    "id": 3,
+    "nom": "Barre de navigation",
+    "code": "<nav><ul><li><a href='#'>Home</a></li><li><a href='#'>About</a></li><li><a href='#'>Services</a></li><li><a href='#'>Contact</a></li></ul></nav>",
+    "exemple": "<nav><ul><li><a href='#'>Home</a></li></ul> - Exemple de barre de navigation"
+  },
+  {
+    "id": 4,
+    "nom": "Carte (Card)",
+    "code": "<div class='card'><img src='image.jpg' alt='Image'><h3>Titre de la carte</h3><p>Quelques informations intéressantes...</p></div>",
+    "exemple": "<div class='card'><h3>Titre de la carte</h3></div> "
+  },
+  {
+    "id": 5,
+    "nom": "Modale (popup)",
+    "code": "<div class='modal'><p>Contenu de la modale</p><button class='close'>Fermer</button></div>",
+    "exemple": "<div class='modal'><p>Contenu de la modale</p></div> "
+  },
+  {
+    "id": 6,
+    "nom": "Champ de recherche",
+    "code": "<input type='search' placeholder='Rechercher...'>",
+    "exemple": "<input type='search' placeholder='Rechercher...'> "
+  },
+  {
+    "id": 7,
+    "nom": "Menu hamburger",
+    "code": "<button class='hamburger-menu'><span></span><span></span><span></span></button>",
+    "exemple": "<button class='hamburger-menu'><span></span></button>"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id_outil": 1,
+    "id_methodologie": 1
+  },
+  {
+    "id_outil": 2,
+    "id_methodologie": 1
+  },
+  {
+    "id_outil": 3,
+    "id_methodologie": 1
+  },
+  {
+    "id_outil": 4,
+    "id_methodologie": 1
+  },
+  {
+    "id_outil": 5,
+    "id_methodologie": 2
+  },
+  {
+    "id_outil": 6,
+    "id_methodologie": 2
+  },
+  {
+    "id_outil": 7,
+    "id_methodologie": 2
+  },
+  {
+    "id_outil": 8,
+    "id_methodologie": 2
+  }
+]
